@@ -1,6 +1,10 @@
 {
   "name": "expensify-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.22.1",
+    "yarn": "1.22.10"
+  },
   "main": "index.js",
   "author": "Chris Desautels",
   "license": "MIT",
