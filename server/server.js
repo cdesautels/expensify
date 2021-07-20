@@ -2,6 +2,8 @@
 const path = require('path');
 const express = require('express');
 const publicPath = path.join(__dirname, '..', 'public');
+// Set the port to Hiroku's dyanmic port assignment, or use 3000 for localhost
+const port = process.env.PORT || 3000;
 
 // Define the server
 const app = express();
@@ -14,6 +16,6 @@ app.get('*', (request, response) => {
 
 // Launch the server
 // -> node server/server.js
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Server is up!');
 });
