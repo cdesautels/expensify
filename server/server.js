@@ -2,7 +2,7 @@
 const path = require('path');
 const express = require('express');
 const publicPath = path.join(__dirname, '..', 'public');
-// Set the port to Hiroku's dyanmic port assignment, or use 3000 for localhost
+// Set the port to Hiroku's dyanmic port assignment, or use 3000 for localhostg
 const port = process.env.PORT || 3000;
 
 // Define the server
